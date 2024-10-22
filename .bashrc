@@ -123,4 +123,4 @@ for i in $(ls -A $HOME/.bashrc.d/); do source $HOME/.bashrc.d/$i; done
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-
+eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)
