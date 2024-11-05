@@ -17,5 +17,5 @@ if ! grep -q 'oh-my-posh init bash' ~/.bashrc; then
 fi
 
 if ! grep -q 'oh-my-posh init zsh' ~/.zshrc; then
-  echo 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/1_shell.omp.json)"' >> ~/.zshrc
+  echo 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/paradox.omp.json)"' >> ~/.zshrc
 fi
