@@ -15,3 +15,7 @@ chmod u+rw ~/.poshthemes/*.omp.json
 if ! grep -q 'oh-my-posh init bash' ~/.bashrc; then
   echo 'eval "$(oh-my-posh init bash --config ~/.poshthemes/1_shell.omp.json)"' >> ~/.bashrc
 fi
+
+if ! grep -q 'oh-my-posh init zsh' ~/.zshrc; then
+  echo 'eval "$(oh-my-posh init zsh --config ~/.poshthemes/1_shell.omp.json)"' >> ~/.zshrc
+fi
